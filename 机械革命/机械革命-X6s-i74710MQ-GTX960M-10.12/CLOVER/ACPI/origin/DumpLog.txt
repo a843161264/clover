@@ -1,0 +1,137 @@
+20:287  0:049  Found BIOS RSDP at F0000
+20:287  0:000  Printing ACPI tables from RSDP F0000 ...
+20:287  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+20:287  0:000    (Xsdt: AD57F090, Rsdt: AD57F028)
+20:287  0:000    AD57F090: 'XSDT', 'TONGFANG', Rev: 1, Len: 156
+20:287  0:000    AD57F028: 'RSDT', 'TONGFANG', Rev: 1, Len: 96
+20:287  0:000    Tables in Xsdt: 15
+20:287  0:000    0. AD58EB78: 'FACP', 'TONGFANG', Rev: 5, Len: 268
+20:287  0:000        (Dsdt: AD57F1C0, Facs: AD9E8F80, XDsdt: AD57F1C0, XFacs: 0)
+20:287  0:000        AD57F1C0: 'DSDT', 'CSB00000', Rev: 2, Len: 63924
+20:288  0:001        AD9E8F80: 'FACS', Ver: 2, Len: 64
+20:288  0:000    1. AD58EC88: 'APIC', 'TONGFANG', Rev: 3, Len: 146
+20:288  0:000    2. AD58ED20: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+20:288  0:000    3. AD58ED68: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+20:288  0:000    4. AD58EF90: 'SSDT', 'zpodd', Rev: 1, Len: 399
+20:288  0:000    5. AD58F120: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+20:288  0:000    6. AD58F298: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+20:288  0:000    7. AD58F7D8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+20:288  0:000    8. AD5902B0: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+20:288  0:000    9. AD5902F0: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+20:288  0:000    10. AD590328: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+20:288  0:000    11. AD590640: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+20:288  0:000    12. AD593800: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+20:288  0:000    13. AD594DE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+20:288  0:000    14. AD596878: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+20:288  0:000    Tables in Rsdt: 15
+20:288  0:000    0. AD57F138: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+20:288  0:000        (Dsdt: AD57F1C0, Facs: AD9E8F40)
+20:288  0:000        AD57F1C0: 'DSDT', 'CSB00000', Rev: 2, Len: 63924
+20:289  0:001        AD9E8F40: 'FACS', Ver: 0, Len: 64
+20:289  0:000    1. AD58EC88: 'APIC', 'TONGFANG', Rev: 3, Len: 146
+20:289  0:000    2. AD58ED20: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+20:289  0:000    3. AD58ED68: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+20:289  0:000    4. AD58EF90: 'SSDT', 'zpodd', Rev: 1, Len: 399
+20:289  0:000    5. AD58F120: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+20:289  0:000    6. AD58F298: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+20:289  0:000    7. AD58F7D8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+20:289  0:000    8. AD5902B0: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+20:289  0:000    9. AD5902F0: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+20:289  0:000    10. AD590328: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+20:289  0:000    11. AD590640: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+20:289  0:000    12. AD593800: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+20:289  0:000    13. AD594DE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+20:289  0:000    14. AD596878: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+20:289  0:000  Found UEFI Acpi 2.0 RSDP at AD57F000
+20:289  0:000  Saving ACPI tables from RSDP AD57F000 to EFI\CLOVER\ACPI\origin ...
+20:289  0:000   AD57F000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+20:294  0:004    (Xsdt: AD57F090, Rsdt: AD57F028)
+20:294  0:000    AD57F090: 'XSDT', 'TONGFANG', Rev: 1, Len: 156 -> XSDT.aml
+20:298  0:004    AD57F028: 'RSDT', 'TONGFANG', Rev: 1, Len: 96 -> RSDT.aml
+20:302  0:004    Tables in Xsdt: 15
+20:302  0:000    0. AD58EB78: 'FACP', 'TONGFANG', Rev: 5, Len: 268 -> FACP.aml
+20:306  0:004        (Dsdt: AD57F1C0, Facs: AD9E8F80, XDsdt: AD57F1C0, XFacs: 0)
+20:306  0:000        AD57F1C0: 'DSDT', 'CSB00000', Rev: 2, Len: 63924 -> DSDT.aml
+20:315  0:008        AD9E8F80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+20:319  0:004    1. AD58EC88: 'APIC', 'TONGFANG', Rev: 3, Len: 146 -> APIC.aml
+20:324  0:004    2. AD58ED20: 'FPDT', 'TONGFANG', Rev: 1, Len: 68 -> FPDT.aml
+20:328  0:004    3. AD58ED68: 'SSDT', 'sensrhub', Rev: 1, Len: 552 -> SSDT-0.aml
+20:332  0:004    4. AD58EF90: 'SSDT', 'zpodd', Rev: 1, Len: 399 -> SSDT-1.aml
+20:337  0:005    5. AD58F120: 'SLIC', 'TONGFANG', Rev: 1, Len: 374 -> SLIC.aml
+20:341  0:004    6. AD58F298: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337 -> SSDT-2.aml
+20:346  0:004    7. AD58F7D8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+ Found hidden SSDT 4 pcs
+20:346  0:000        * AB27E598: '', '', Rev: 55, Len: 16777216  00 20 00 00 00 00 00 01 37 37 00 00 05 64 00 00       * AD328618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-4x.aml
+20:350  0:004        * AD328C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-5x.aml
+20:354  0:004        * AD327D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-6x.aml
+20:359  0:004   -> SSDT-3.aml
+20:363  0:004    8. AD5902B0: 'MCFG', 'TONGFANG', Rev: 1, Len: 60 -> MCFG.aml
+20:368  0:004    9. AD5902F0: 'HPET', 'TONGFANG', Rev: 1, Len: 56 -> HPET.aml
+20:372  0:004    10. AD590328: 'SSDT', 'SataTabl', Rev: 1, Len: 789 -> SSDT-7.aml
+20:376  0:004    11. AD590640: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736 -> SSDT-8.aml
+20:381  0:004    12. AD593800: 'SSDT', 'SgPeg', Rev: 1, Len: 5599 -> SSDT-9.aml
+20:386  0:005    13. AD594DE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801 -> SSDT-10.aml
+20:391  0:004    14. AD596878: 'BGRT', 'TONGFANG', Rev: 1, Len: 56 -> BGRT.aml
+20:395  0:004    Tables in Rsdt: 15
+20:395  0:000    0. AD57F138: 'FACP', 'TONGFANG', Rev: 2, Len: 132 -> RSDT-FACP.aml
+20:400  0:004        (Dsdt: AD57F1C0, Facs: AD9E8F40)
+20:400  0:000        AD57F1C0: 'DSDT', 'CSB00000', Rev: 2, Len: 63924
+20:401  0:001        AD9E8F40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+20:405  0:004    1. AD58EC88: 'APIC', 'TONGFANG', Rev: 3, Len: 146
+20:405  0:000    2. AD58ED20: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+20:405  0:000    3. AD58ED68: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+20:405  0:000    4. AD58EF90: 'SSDT', 'zpodd', Rev: 1, Len: 399
+20:405  0:000    5. AD58F120: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+20:405  0:000    6. AD58F298: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+20:405  0:000    7. AD58F7D8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+20:405  0:000    8. AD5902B0: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+20:405  0:000    9. AD5902F0: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+20:405  0:000    10. AD590328: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+20:405  0:000    11. AD590640: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+20:405  0:000    12. AD593800: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+20:405  0:000    13. AD594DE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+20:405  0:000    14. AD596878: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+20:405  0:000  Found UEFI Acpi 1.0 RSDP at AD57F000
+20:405  0:000  Printing ACPI tables from RSDP AD57F000 ...
+20:405  0:000   AD57F000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+20:405  0:000    (Xsdt: AD57F090, Rsdt: AD57F028)
+20:405  0:000    AD57F090: 'XSDT', 'TONGFANG', Rev: 1, Len: 156
+20:405  0:000    AD57F028: 'RSDT', 'TONGFANG', Rev: 1, Len: 96
+20:405  0:000    Tables in Xsdt: 15
+20:405  0:000    0. AD58EB78: 'FACP', 'TONGFANG', Rev: 5, Len: 268
+20:405  0:000        (Dsdt: AD57F1C0, Facs: AD9E8F80, XDsdt: AD57F1C0, XFacs: 0)
+20:405  0:000        AD57F1C0: 'DSDT', 'CSB00000', Rev: 2, Len: 63924
+20:406  0:001        AD9E8F80: 'FACS', Ver: 2, Len: 64
+20:406  0:000    1. AD58EC88: 'APIC', 'TONGFANG', Rev: 3, Len: 146
+20:406  0:000    2. AD58ED20: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+20:406  0:000    3. AD58ED68: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+20:406  0:000    4. AD58EF90: 'SSDT', 'zpodd', Rev: 1, Len: 399
+20:406  0:000    5. AD58F120: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+20:406  0:000    6. AD58F298: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+20:406  0:000    7. AD58F7D8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+20:406  0:000    8. AD5902B0: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+20:406  0:000    9. AD5902F0: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+20:406  0:000    10. AD590328: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+20:406  0:000    11. AD590640: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+20:406  0:000    12. AD593800: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+20:406  0:000    13. AD594DE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+20:406  0:000    14. AD596878: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
+20:406  0:000    Tables in Rsdt: 15
+20:406  0:000    0. AD57F138: 'FACP', 'TONGFANG', Rev: 2, Len: 132
+20:406  0:000        (Dsdt: AD57F1C0, Facs: AD9E8F40)
+20:406  0:000        AD57F1C0: 'DSDT', 'CSB00000', Rev: 2, Len: 63924
+20:407  0:001        AD9E8F40: 'FACS', Ver: 0, Len: 64
+20:407  0:000    1. AD58EC88: 'APIC', 'TONGFANG', Rev: 3, Len: 146
+20:407  0:000    2. AD58ED20: 'FPDT', 'TONGFANG', Rev: 1, Len: 68
+20:407  0:000    3. AD58ED68: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+20:407  0:000    4. AD58EF90: 'SSDT', 'zpodd', Rev: 1, Len: 399
+20:407  0:000    5. AD58F120: 'SLIC', 'TONGFANG', Rev: 1, Len: 374
+20:407  0:000    6. AD58F298: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+20:407  0:000    7. AD58F7D8: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+20:407  0:000    8. AD5902B0: 'MCFG', 'TONGFANG', Rev: 1, Len: 60
+20:407  0:000    9. AD5902F0: 'HPET', 'TONGFANG', Rev: 1, Len: 56
+20:407  0:000    10. AD590328: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+20:407  0:000    11. AD590640: 'SSDT', 'SaSsdt ', Rev: 1, Len: 12736
+20:407  0:000    12. AD593800: 'SSDT', 'SgPeg', Rev: 1, Len: 5599
+20:407  0:000    13. AD594DE0: 'SSDT', 'OptTabl', Rev: 1, Len: 6801
+20:407  0:000    14. AD596878: 'BGRT', 'TONGFANG', Rev: 1, Len: 56
